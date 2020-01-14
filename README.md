@@ -39,8 +39,17 @@
 Средняя оценка сервиса 86, люди любят этот сервис и готовы рекомендовать его своим друзьям.
 
 ## Задание 3
-
+```java
+public void testDivide() {
+	Calculator calculator = new Calculator();
+	int result = calculator.divide(121, 11);
+	if (result != 11) {   // if 121 / 11 != 11
+		Assert.fail();
+	}
+```
+  
 ## Задание 4
+![we](https://raw.githubusercontent.com/ctel-prj-mng/3-ivt-17-t3-strijovegor/master/lolik.png "we")
 
 # ВСР
 
